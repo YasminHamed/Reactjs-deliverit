@@ -1,38 +1,304 @@
-.App {
-  text-align: center;
+body{
+  position: relative;
+  height: 2250px;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.titlebar{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+}
+.aa{
+  margin-top: 30px;
+}
+.aa1{
+  margin-left: 20px;
+  color: rgb(112 112 112);
+}
+.aa2{
+  margin-left: 30px;
+  color: rgb(112 112 112);
+}
+.aa3{
+  margin-left: 30px;
+  color: rgb(112 112 112);
+}
+.aa4{
+  margin-left: 30px;
+  color: rgb(112 112 112);
+}
+.login{
+  position: absolute;
+  right: 140px;
+  top: 25px;
+  color: rgb(112 112 112);
+  margin-left:650px;
+  z-index: 2;
+}
+.loginb{
+  position: absolute;
+  right: 110px;
+  top: 20px;
+  z-index: -1;
+}
+.back{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: -2;
+}
+.title{
+  display: flex;
+  flex-flow: row nowrap;
+  color: rgb(112 112 112);
+  margin-top: 175px;
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.deliver{
+  color: rgb(154, 55, 219);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.landing{
+  position: absolute;
+  right: 0%;
+  top: 3px;
+}
+.mask{
+  position: absolute;
+  right: 300px;
+  top: 60px;
+}
+.waves{
+  position: absolute;
+  top: 580px;
+  left: -250px;
+}
+.cloud{
+  position: absolute;
+  right: 250px;
+  top: 440px;
+}
+.pra{
+  width: 360px;
+  margin-left: 50px;
+  margin-top: 1px;
+  color: rgb(112 112 112);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.motor{
+  position: absolute;
+  top: 780px;
+  left: 150px;
+}
+.h{
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(112 112 112);
+  position: absolute;
+  top: 915px;
+  left: 150px;
+}
+.p{
+  font-size: 15px;
+  color: rgb(112 112 112);
+  position: absolute;
+  text-align: center;
+  top: 940px;
+  left: 110px;
+}
+.P2{
+  font-size: 15px;
+  color: rgb(112 112 112);
+  position: absolute;
+  text-align: center; 
+  top: 960px;
+  left: 95px;
+}
+.road{
+  position: absolute;
+  left: 230px;
+  top: 700px;
+}
+.clock{
+  position: absolute;
+  top: 900px;
+  left: 550px;
+}
+.hh{
+  font-size: 17px;
+  font-weight: bold;
+  position: absolute;
+  top: 1020px;
+  left: 550px;
+  color: rgb(112 112 112);
+}
+.pp{
+  font-size: 15px;
+  position: absolute;
+  text-align: center;
+  width: 320px;
+  top: 1045px;
+  left: 450px;
+  color: rgb(112 112 112);
+}
+.discount{
+  position: absolute;
+  top: 1160px;
+  left: 930px;
+}
+.hhh{
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(112 112 112);
+  position: absolute;
+  top: 1265px;
+  left: 965px;
+}
+.ppp{
+  font-size: 15px;
+  color: rgb(112 112 112);
+  position: absolute;
+  text-align: center;
+  width: 310px;
+  top: 1290px;
+  left: 850px;
+}
+.KUDZOKA{
+  position: absolute;
+  top: 1095px;
+  left: 110px;
+}
+.why{
+  color: snow;
+  position: absolute;
+  top: 1180px;
+  left: 175px;
+  font-size: 14px;
+}
+.kud{
+  font-size: 35px;
+  color: snow;
+  position: absolute;
+  top: 1200px;
+  left: 175px; 
+}
+.ph1{
+  position: absolute; 
+  top: 1500px;
+  left: 420px;
+}
+.phleft{
+  position: absolute; 
+  top: 1600px;
+  left: 150px;
+}
+.phright{
+  position: absolute; 
+  top: 1600px;
+  right: 150px;
+}
+.middleh{
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(112 112 112);
+  position: absolute; 
+  top: 1785px;
+  left: 525px;  
+}
+.middlep{
+  font-size: 14px;
+  color: rgb(112 112 112);
+  position: absolute; 
+  text-align: center;
+  width: 198px;
+  top: 1820px;
+  left: 520px;   
+}
+.end{
+  position: absolute;
+  bottom: 0%;
+}
+.person{
+  position: absolute;
+  bottom: 0%;
+  right: 80px;
+}
+.apple{
+  display: flex;
+  flex-flow: row;
+  position: absolute;
+  background-color: snow;
+  border-radius: 10px;
+  bottom: 110px;
+  left: 150px;
+  padding: 5px;
+  width: 80px;
+}
+.play{
+  display: flex;
+  flex-flow: row;
+  position: absolute;
+  background-color: snow;
+  border-radius: 10px;
+  bottom: 110px;
+  left: 260px;
+  padding: 5px;
+  width: 80px;
+}
+.p6{
+  font-size: 6px;
+  margin: 0px;
+  position: absolute;
+  left: 30px;
+  bottom: 23px;
+}
+.p7{
+  font-size: 10px;
+  margin: 0px;
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+}
+.insta{
+  position: absolute;
+  bottom: 70px;
+  left: 150px;
+}
+.whats{
+  position: absolute;
+  bottom: 70px;
+  left: 180px;
+}
+.face{
+  position: absolute;
+  bottom: 70px;
+  left: 210px;
+}
+.endbar{
+  position: absolute;
+  bottom: 30px;
+  left: 150px;
+}
+.aa11{
+  color: snow;
+}
+.aa22{
+  margin-left: 20px;
+  color: snow;
+}
+.aa33{
+  margin-left: 20px;
+  color: snow;
+}
+.aa44{
+  margin-left: 20px;
+  color: snow;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
